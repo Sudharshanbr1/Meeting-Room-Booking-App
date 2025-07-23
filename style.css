@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef1f5;
+}
+
+.main-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.booking-form {
+  width: 50%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.booking-form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.time-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.book-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  display: block;
+  margin: 10px auto 0;
+}
+
+.book-btn:hover {
+  background-color: #005dc1;
+}
+
+.bookings-list {
+  width: 50%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.bookings-list h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #28a745;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  margin-left: 5px;
+}
